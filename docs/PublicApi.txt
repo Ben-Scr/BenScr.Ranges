@@ -1,0 +1,43 @@
+BenScr.Ranges.Int64Range : System.ValueType
+  Constructor Void .ctor(Int64, Int64)
+  Method Boolean Contains(BenScr.Ranges.Int64Range)
+  Method Boolean Contains(Int64)
+  Method Boolean Equals(BenScr.Ranges.Int64Range)
+  Method Boolean Equals(System.Object)
+  Method Boolean Overlaps(BenScr.Ranges.Int64Range)
+  Method Boolean op_Equality(BenScr.Ranges.Int64Range, BenScr.Ranges.Int64Range)
+  Method Boolean op_Inequality(BenScr.Ranges.Int64Range, BenScr.Ranges.Int64Range)
+  Method Int32 CompareTo(BenScr.Ranges.Int64Range)
+  Method Int32 GetHashCode()
+  Method Int64 get_End()
+  Method Int64 get_Start()
+  Method System.String ToString()
+  Method System.UInt128 get_Cardinality()
+  Property Int64 End
+  Property Int64 Start
+  Property System.UInt128 Cardinality
+BenScr.Ranges.RangeSet : System.Object
+  Constructor Void .ctor(System.Collections.Generic.IEnumerable`1[BenScr.Ranges.Int64Range])
+  Method BenScr.Ranges.Int64Range get_Item(Int32)
+  Method BenScr.Ranges.RangeSet Except(BenScr.Ranges.RangeSet)
+  Method BenScr.Ranges.RangeSet FromRange(BenScr.Ranges.Int64Range)
+  Method BenScr.Ranges.RangeSet Intersect(BenScr.Ranges.RangeSet)
+  Method BenScr.Ranges.RangeSet Union(BenScr.Ranges.RangeSet)
+  Method BenScr.Ranges.RangeSet get_All()
+  Method BenScr.Ranges.RangeSet get_Empty()
+  Method Boolean Contains(BenScr.Ranges.Int64Range)
+  Method Boolean Contains(Int64)
+  Method Boolean Equals(BenScr.Ranges.RangeSet)
+  Method Boolean Equals(System.Object)
+  Method Boolean IsSubsetOf(BenScr.Ranges.RangeSet)
+  Method Boolean get_IsEmpty()
+  Method Int32 GetHashCode()
+  Method Int32 get_Count()
+  Method System.Collections.Generic.IEnumerator`1[BenScr.Ranges.Int64Range] GetEnumerator()
+  Method System.UInt128 get_Cardinality()
+  Property BenScr.Ranges.Int64Range Item [Int32]
+  Property BenScr.Ranges.RangeSet All
+  Property BenScr.Ranges.RangeSet Empty
+  Property Boolean IsEmpty
+  Property Int32 Count
+  Property System.UInt128 Cardinality

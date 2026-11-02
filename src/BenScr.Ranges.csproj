@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <PackageId>BenScr.Ranges</PackageId>
+    <AssemblyName>BenScr.Ranges</AssemblyName>
+    <RootNamespace>BenScr.Ranges</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>Ben Schneider</Authors>
+    <Description>Immutable inclusive Int64 intervals and normalized range sets with exact UInt128 cardinality, union, intersection, difference and containment.</Description>
+    <PackageTags>ranges;intervals;sets;int64;immutable</PackageTags>
+    <PackageProjectUrl>https://github.com/Ben-Scr/BenScr.Ranges</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Ben-Scr/BenScr.Ranges</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageIcon>icon.png</PackageIcon>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="/" />
+    <None Include="../LICENSE.txt" Pack="true" PackagePath="/" />
+    <None Include="../branding/BenScr_Icon_Master.png" Pack="true" PackagePath="/icon.png" />
+  </ItemGroup>
+</Project>
